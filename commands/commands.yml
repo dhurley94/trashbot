@@ -1,0 +1,17 @@
+commands:
+  - help:
+    message: This app does stuff
+  - add:
+    message: Add submission
+  - top:
+    subcommands:
+    - clips:
+      message: This is the clips message
+  - by:
+    subcommands:
+    - user:
+      message: Query by user
+    - clip:
+      message: Query by Clip ID
+    - help:
+      message: Help message for sub commands
