@@ -160,5 +160,4 @@ if __name__ == "__main__":
     print(cb.yaml_to_json(commands)["commands"])
     bot = DiscordBot()
     bot.run()
-    # client = DiscordClient()
-    # client.run("NjgwODcyMjg3MDI5MDM1MDcw.XlGeQw.yDPOmVmU1k7bTDLzuONgHkqw2k0")
+
